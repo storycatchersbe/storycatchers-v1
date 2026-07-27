@@ -1,0 +1,79 @@
+.sc-form {
+    margin-top: 2rem;
+    max-width: 520px;
+}
+
+.sc-form__field {
+    margin-bottom: 1.5rem;
+}
+
+.sc-form__field label {
+    display: block;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #505050;
+    margin-bottom: 0.5rem;
+}
+
+.sc-form__field label abbr {
+    color: #dc3e26;
+    text-decoration: none;
+}
+
+.sc-form__field input,
+.sc-form__field textarea,
+.sc-form__field select {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #505050;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 0;
+    padding: 0.85rem 1rem;
+    transition: border-color 0.2s ease;
+}
+
+.sc-form__field input:focus,
+.sc-form__field textarea:focus,
+.sc-form__field select:focus {
+    outline: none;
+    border-color: #dc3e26;
+}
+
+.sc-form__field textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+.sc-form__submit {
+    display: inline-block;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    background-color: #dc3e26;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 1rem 1.8rem;
+}
+
+.sc-form__submit:hover {
+    background-color: #b8321e;
+}
+
+.sc-form__honey {
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.gform_wrapper .sc-form {
+    margin-top: 1rem;
+}
