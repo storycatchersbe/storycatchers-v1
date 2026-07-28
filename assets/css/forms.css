@@ -77,3 +77,33 @@
 .gform_wrapper .sc-form {
     margin-top: 1rem;
 }
+
+.gform_wrapper .pipedriveWebForms {
+    text-align: left;
+    max-width: 520px;
+}
+
+.gform_wrapper .pipedriveWebForms iframe,
+.gform_wrapper .pipedriveWebForms > div {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+
+.gform_wrapper.pipedrive-form--left .pipedriveWebForms {
+    width: 520px;
+    max-width: 100%;
+}
+
+.gform_wrapper.pipedrive-form--left .pipedriveWebForms > div {
+    width: 100% !important;
+    max-width: 520px !important;
+    margin: 0 !important;
+    display: block !important;
+}
+
+.gform_wrapper.pipedrive-form--left .pipedriveWebForms iframe {
+    width: 100% !important;
+    max-width: 520px !important;
+    margin: 0 !important;
+    display: block !important;
+}
